@@ -10,6 +10,7 @@
                     "@propagate": true,
                     "@protected": true,
                     "polygon-vocab": "urn:uuid:7253c3e4-2d16-4186-bd86-b8b2bd5a2390#",
+                    "vocab": "https://raw.githubusercontent.com/teye/claim-schema/main/vocab/ProofOfDevice.md",
                     "xsd": "http://www.w3.org/2001/XMLSchema#",
                     "device": {
                         "@id": "polygon-vocab:device",

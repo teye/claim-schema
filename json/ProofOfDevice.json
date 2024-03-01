@@ -1,7 +1,8 @@
 {
     "$metadata": {
         "uris": {
-            "jsonLdContext": "https://example.com/path/to/file/context.jsonld"
+            "jsonLdContext": "https://raw.githubusercontent.com/teye/claim-schema/main/json-ld/ProofOfDevice.jsonld",
+            "jsonSchema": "https://raw.githubusercontent.com/teye/claim-schema/main/json/ProofOfDevice.json"
         },
         "version": "1.0",
         "type": "ProofOfDevice"

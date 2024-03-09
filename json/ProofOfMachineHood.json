@@ -1,10 +1,10 @@
 {
     "$metadata": {
-        "type": "ProofOfDevice",
+        "type": "ProofOfMachineHood",
         "uris": {
             "jsonLdContext": "https://raw.githubusercontent.com/teye/claim-schema/main/json-ld/ProofOfMachineHood.jsonld"
         },
-        "version": "1.0"
+        "version": "1.4"
     },
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "description": "A demo schema to proof whether the user holds a device",
@@ -69,8 +69,8 @@
                     "type": "string"
                 },
                 "aaguid": {
-                    "description": "128-bit identifier indicating the key type, make and model",
-                    "title": "authenticator attestation guid",
+                    "description": "a 128 bit identifier of the device",
+                    "title": "AAGUID",
                     "type": "string"
                 },
                 "attestationHash": {
@@ -79,15 +79,15 @@
                     "type": "string"
                 },
                 "attested": {
-                    "description": "whether the device is attested",
-                    "title": "IsAttested",
+                    "description": "checks whether device is attested",
+                    "title": "Attested",
                     "type": "boolean"
                 },
                 "attestDate": {
-                    "description": "date the device is attested",
+                    "description": "date time of attestation",
                     "title": "Attested Date",
-                    "type": "string",
-                    "format": "date-time"
+                    "format": "date-time",
+                    "type": "string"
                 }
             },
             "required": [

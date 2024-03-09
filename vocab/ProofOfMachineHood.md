@@ -36,5 +36,4 @@ date time the device is attested
 
 ```
   "attestDate": "2025-04-05T08:34:07.117Z"
-  "attestDate": 1903357766
 ```

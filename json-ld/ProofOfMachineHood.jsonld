@@ -9,7 +9,7 @@
                 "@context": {
                     "@propagate": true,
                     "@protected": true,
-                    "vocab": "https://raw.githubusercontent.com/teye/claim-schema/main/vocab/ProofOfMachineHood.md",
+                    "vocab": "https://raw.githubusercontent.com/teye/claim-schema/main/vocab/ProofOfMachineHood.md#",
                     "xsd": "http://www.w3.org/2001/XMLSchema#",
                     "device": {
                         "@id": "vocab:device",
@@ -32,7 +32,7 @@
                         "@type": "xsd:dateTime"
                     }
                 },
-                "@id": "https://raw.githubusercontent.com/teye/claim-schema/main/json/ProofOfMachineHood.json#ProofOfMachineHood"
+                "@id": "https://raw.githubusercontent.com/teye/claim-schema/main/json/ProofOfMachineHood.jsonld#ProofOfMachineHood"
             }
         }
     ]

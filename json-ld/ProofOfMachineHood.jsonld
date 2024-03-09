@@ -32,7 +32,7 @@
                         "@type": "xsd:dateTime"
                     }
                 },
-                "@id": "https://raw.githubusercontent.com/teye/claim-schema/main/json/ProofOfDevice.json#ProofOfDevice"
+                "@id": "https://raw.githubusercontent.com/teye/claim-schema/main/json/ProofOfMachineHood.json#ProofOfMachineHood"
             }
         }
     ]

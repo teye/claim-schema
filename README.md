@@ -1,1 +1,1 @@
-A collection of schemas
+A collection of schemas for PolygonID

@@ -1,13 +1,13 @@
 {
     "title": "Proof Of Machinehood",
-    "description": "Know Your Customer Verification",
-    "issuerName": "PolygonID Issuer",
-    "titleTextColor": "#f2743a",
-    "descriptionTextColor": "#f2743a",
-    "issuerTextColor": "#f2743a",
+    "description": "",
+    "issuerName": "Automata Network",
+    "titleTextColor": "#18191a",
+    "descriptionTextColor": "#18191a",
+    "issuerTextColor": "#18191a",
     "backgroundImageUrl": "https://raw.githubusercontent.com/teye/claim-schema/main/bg-images/pom_credential.png",
     "logo": {
       "uri": "https://avatars.githubusercontent.com/u/77826448?s=200&v=4",
-      "alt": "Logo PolygonID Issuer"
+      "alt": "Automata Issuer"
     }
   }

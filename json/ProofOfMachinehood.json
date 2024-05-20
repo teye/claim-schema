@@ -1,0 +1,151 @@
+{
+    "$metadata": {
+        "type": "ProofOfMachinehood",
+        "uris": {
+            "jsonLdContext": "https://raw.githubusercontent.com/teye/claim-schema/main/json-ld/ProofOfMachinehood.jsonld"
+        },
+        "version": "1.4"
+    },
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "description": "A demo schema to proof whether the user holds a device",
+    "title": "Proof Of Machinehood",
+    "properties": {
+        "@context": {
+            "type": [
+                "string",
+                "array",
+                "object"
+            ]
+        },
+        "expirationDate": {
+            "format": "date-time",
+            "type": "string"
+        },
+        "id": {
+            "type": "string"
+        },
+        "issuanceDate": {
+            "format": "date-time",
+            "type": "string"
+        },
+        "issuer": {
+            "type": [
+                "string",
+                "object"
+            ],
+            "format": "uri",
+            "properties": {
+                "id": {
+                    "format": "uri",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id"
+            ]
+        },
+        "type": {
+            "type": [
+                "string",
+                "array"
+            ],
+            "items": {
+                "type": "string"
+            }
+        },
+        "credentialSubject": {
+            "description": "Stores the data of the credential",
+            "title": "Credential subject",
+            "properties": {
+                "id": {
+                    "description": "Stores the DID of the subject that owns the credential",
+                    "title": "Credential subject ID",
+                    "format": "uri",
+                    "type": "string"
+                },
+                "device": {
+                    "description": "type of device name",
+                    "title": "Device name or ID",
+                    "type": "string"
+                },
+                "aaguid": {
+                    "description": "a 128 bit identifier of the device",
+                    "title": "AAGUID",
+                    "type": "string"
+                },
+                "attestationHash": {
+                    "description": "attestation transaction hash",
+                    "title": "Attestation Hash",
+                    "type": "string"
+                },
+                "attested": {
+                    "description": "checks whether device is attested",
+                    "title": "Attested",
+                    "type": "boolean"
+                },
+                "attestDate": {
+                    "description": "date time of attestation",
+                    "title": "Attested Date",
+                    "format": "date-time",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "device",
+                "aaguid",
+                "attestationHash",
+                "attested",
+                "attestDate"
+            ],
+            "type": "object"
+        },
+        "credentialSchema": {
+            "properties": {
+                "id": {
+                    "format": "uri",
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id",
+                "type"
+            ],
+            "type": "object"
+        },
+        "credentialStatus": {
+            "description": "Allows the discovery of information about the current status of the credential, such as whether it is suspended or revoked.",
+            "title": "Credential Status",
+            "properties": {
+                "id": {
+                    "description": "Id URL of the credentialStatus.",
+                    "title": "Id",
+                    "format": "uri",
+                    "type": "string"
+                },
+                "type": {
+                    "description": "Expresses the credential status type (method). The value should provide enough information to determine the current status of the credential.",
+                    "title": "Type",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id",
+                "type"
+            ],
+            "type": "object"
+        }
+    },
+    "required": [
+        "@context",
+        "id",
+        "issuanceDate",
+        "issuer",
+        "type",
+        "credentialSubject",
+        "credentialSchema"
+    ],
+    "type": "object"
+}

@@ -1,14 +1,14 @@
 {
     "$metadata": {
-        "type": "ProofOfMachineHood",
+        "type": "ProofOfMachinehood",
         "uris": {
-            "jsonLdContext": "https://raw.githubusercontent.com/teye/claim-schema/main/json-ld/ProofOfMachineHood.jsonld"
+            "jsonLdContext": "https://raw.githubusercontent.com/teye/claim-schema/main/json-ld/ProofOfMachinehood.jsonld"
         },
         "version": "1.4"
     },
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "description": "A demo schema to proof whether the user holds a device",
-    "title": "ProofOfMachineHood",
+    "title": "Proof Of Machinehood",
     "properties": {
         "@context": {
             "type": [

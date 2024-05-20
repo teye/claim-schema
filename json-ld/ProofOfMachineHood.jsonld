@@ -5,11 +5,11 @@
             "@version": 1.1,
             "id": "@id",
             "type": "@type",
-            "ProofOfMachineHood": {
+            "ProofOfMachinehood": {
                 "@context": {
                     "@propagate": true,
                     "@protected": true,
-                    "vocab": "https://raw.githubusercontent.com/teye/claim-schema/main/vocab/ProofOfMachineHood.md#",
+                    "vocab": "https://raw.githubusercontent.com/teye/claim-schema/main/vocab/ProofOfMachinehood.md#",
                     "xsd": "http://www.w3.org/2001/XMLSchema#",
                     "device": {
                         "@id": "vocab:device",
@@ -32,7 +32,7 @@
                         "@type": "xsd:dateTime"
                     }
                 },
-                "@id": "https://raw.githubusercontent.com/teye/claim-schema/main/json-ld/ProofOfMachineHood.jsonld#ProofOfMachineHood"
+                "@id": "https://raw.githubusercontent.com/teye/claim-schema/main/json-ld/ProofOfMachinehood.jsonld#ProofOfMachinehood"
             }
         }
     ]

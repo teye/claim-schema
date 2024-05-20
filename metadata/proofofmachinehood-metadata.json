@@ -1,0 +1,13 @@
+{
+    "title": "Proof Of Machinehood",
+    "description": "Know Your Customer Verification",
+    "issuerName": "PolygonID Issuer",
+    "titleTextColor": "#f2743a",
+    "descriptionTextColor": "#f2743a",
+    "issuerTextColor": "#f2743a",
+    "backgroundImageUrl": "ipfs://QmecKDMotkM8a6vxw35CB7iHfToBJnzJrPcmA3gHit9jt9",
+    "logo": {
+      "uri": "https://avatars.githubusercontent.com/u/77826448?s=200&v=4",
+      "alt": "Logo PolygonID Issuer"
+    }
+  }
